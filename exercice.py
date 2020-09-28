@@ -5,7 +5,8 @@
 def order(values: list = None) -> list:
     if values is None:
         # TODO: demander les valeurs ici
-        input()
+        Liste = input()
+        
         pass
 
     return []
