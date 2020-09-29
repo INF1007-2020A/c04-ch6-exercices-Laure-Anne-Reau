@@ -71,7 +71,7 @@ def print_recipe(ingredients) -> None:
         print(ingredients)
     else :
         print("La recette n'existe pas!\n")
-        print("Les recettes existentes sont: {list(ingredients.keys()}")
+        print("Les recettes existentes sont: {list(ingredients.keys())}")
         print_recipe(ingredients)
 
 
