@@ -29,7 +29,7 @@ def best_grades(student_grades: dict) -> dict:
     best_student = dict()
     for key, value in student_grades.items():
         avg = sum(value) / len(value)
-        if len(best_student) == 0 or lis
+        if len(best_student) == 0 or list(best_student.values[])
     return {}
 
 
