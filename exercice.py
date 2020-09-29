@@ -31,6 +31,7 @@ def best_grades(student_grades: dict) -> dict:
         avg = sum(value) / len(value)
         #if len(best_student) == 0 or list(best_student.values())[0] < avg:
         #    best_student = {key: avg}
+        student
     
     return best_student
 
