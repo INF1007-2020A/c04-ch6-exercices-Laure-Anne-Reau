@@ -58,8 +58,8 @@ def frequence(sentence: str) -> dict:
 def get_recipes():
     # TODO: Demander le nom d'une recette, puis ses ingredients et enregistrer dans une structure de données
     name = input("Entrez le nom de votre recette \n")
-    
-    
+    ingr
+
 
     pass
 
