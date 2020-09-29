@@ -61,7 +61,7 @@ def get_recipes():
     ingredients = input("Entrez la liste d'ingrédients de la recette, svp séparer les ingrédients par une virgule.\n")
 
 
-    return {name: ingrédients}
+    return {name: ingredients}
     pass
 
 
