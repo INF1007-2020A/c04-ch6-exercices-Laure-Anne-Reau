@@ -60,9 +60,8 @@ def get_recipes():
     name = input("Entrez le nom de votre recette.\n")
     ingredients = input("Entrez la liste d'ingrédients de la recette, svp séparer les ingrédients par une virgule.\n")
 
-
     return {name: ingredients}
-    pass
+
 
 
 def print_recipe(ingredients) -> None:
