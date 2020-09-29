@@ -3,14 +3,14 @@
 import string
 
 
-#def order(values: list = None) -> list:
+def order(values: list = None) -> list:
 #    if values is None:
 #        # TODO: demander les valeurs ici
 #        Liste = input("veuillez entrer les valeurs séparées par une virgule: ")
         
-#        pass
+        pass
 
-#    return []
+    return []
 
 
 def anagrams(words: list = None) -> bool:
