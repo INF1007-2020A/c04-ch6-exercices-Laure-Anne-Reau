@@ -44,7 +44,7 @@ def frequence(sentence: str) -> dict:
     sentence = list
 
     for key, value in sentence.items():
-        compteur = 
+        compteur = 4
 
 
     return {}
