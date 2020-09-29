@@ -69,7 +69,7 @@ def print_recipe(ingredients) -> None:
     name = input("Entrez le nom d'une recette.\n")
     
     if name in ingredients:
-        print(ingredients)
+        print(ingredients[])
     else :
         print("La recette n'existe pas!\n")
         print(f"Les recettes existentes sont: {list(ingredients.keys())}")
