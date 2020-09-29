@@ -34,8 +34,8 @@ def contains_doubles(items: list) -> bool:
 #        #    best_student = {key: avg}
 #        student_grades[key] = avg
 
-    best_student = max(student_grades, key=student_grades, )    
-    return {best_student: student_grades[best_student]}
+#    best_student = max(student_grades, key=student_grades, )    
+#    return {best_student: student_grades[best_student]}
 
 
 def frequence(sentence: str) -> dict:
