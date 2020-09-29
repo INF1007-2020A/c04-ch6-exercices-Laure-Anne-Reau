@@ -33,7 +33,7 @@ def best_grades(student_grades: dict) -> dict:
         #    best_student = {key: avg}
         student_grades[key] = avg
 
-    best_student = max(stu)    
+    best_student = max(student_grades)    
     return best_student
 
 
