@@ -60,7 +60,7 @@ def get_recipes(dictionnaire):
     name = input("Entrez le nom de votre recette.\n")
     ingrediants = input("Entrez la liste d'ingrédients de la recette, svp séparer les ingrédients par une virgule.\n")
     dictionnaire[name] = ingrediants
-    return {name: ingrediants}
+    return dictionnaire
 
 
 
