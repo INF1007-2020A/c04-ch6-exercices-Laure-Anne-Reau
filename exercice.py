@@ -43,7 +43,7 @@ def frequence(sentence: str) -> dict:
     frequence = dict()
     sentence = list
 
-    for letter in sentence:
+    for letter in sentence :
         compteur = 4
 
 
