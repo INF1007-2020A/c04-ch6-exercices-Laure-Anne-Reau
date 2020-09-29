@@ -34,7 +34,7 @@ def best_grades(student_grades: dict) -> dict:
         student_grades[key] = avg
 
     best_student = max(student_grades, key=student_grades, )    
-    return best_student: student_grades[best_student]}
+    return {best_student: student_grades[best_student]}
 
 
 def frequence(sentence: str) -> dict:
