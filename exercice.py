@@ -28,7 +28,7 @@ def best_grades(student_grades: dict) -> dict:
     # TODO: Retourner un dictionnaire contenant le nom de l'étudiant ayant la meilleure moyenne ainsi que sa moyenne
     best_student = dict()
     for key, value in student_grades.items():
-        avg = sum
+        avg = sum(value) /
     
     return {}
 
