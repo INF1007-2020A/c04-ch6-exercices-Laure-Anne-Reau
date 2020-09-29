@@ -44,7 +44,7 @@ def frequence(sentence: str) -> dict:
     sentence = list
 
     for letter in sentence :
-        compteur = 4
+        frequency()
 
 
     return {}
