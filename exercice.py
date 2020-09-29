@@ -89,8 +89,8 @@ def main() -> None:
     frequence(sentence)
 
     print("On enregistre les recettes...")
-    recipes = get_recipes()
-    recipes = get_recipes()
+    recipes = get_recipes({})
+    recipes = get_recipes(recipes)
     print("On affiche une recette au choix...")
     print_recipe(recipes)
 
