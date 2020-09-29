@@ -42,6 +42,7 @@ def frequence(sentence: str) -> dict:
     #       Retourner le tableau de lettres
     sentence = dict
     for key, value in sentence.items():
+        
 
 
     return {}
