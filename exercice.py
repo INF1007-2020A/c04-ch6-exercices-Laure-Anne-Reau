@@ -45,7 +45,7 @@ def frequence(sentence: str) -> dict:
     for letter in sentence :
         frequency[letter] = sentence.count(letter)
 
-    sorted(frequency, key=frequency)
+    sorted(frequency, key=frequency._getitem_)
 
     return {}
 
