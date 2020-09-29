@@ -32,7 +32,8 @@ def best_grades(student_grades: dict) -> dict:
         #if len(best_student) == 0 or list(best_student.values())[0] < avg:
         #    best_student = {key: avg}
         student_grades[key] = avg
-            
+
+    best_student = max(stu)    
     return best_student
 
 
