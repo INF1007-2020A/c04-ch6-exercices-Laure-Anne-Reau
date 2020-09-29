@@ -49,7 +49,7 @@ def frequence(sentence: str) -> dict:
 
     for key in sorted_keys:
         if frequency[key] > 5:
-            print("Le caractère")
+            print("Le caractère {}")
 
     return {}
 
