@@ -68,7 +68,7 @@ def print_recipe(ingredients) -> None:
     # TODO: Demander le nom d'une recette, puis l'afficher si elle existe
     name = input("Entrez le nom d'une recette.\n")
     if name in ingredients:
-        ingrediants[name]
+        print(ingrediants[name]
 
 
 def main() -> None:
