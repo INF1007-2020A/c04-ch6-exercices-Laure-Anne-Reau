@@ -30,7 +30,7 @@ def best_grades(student_grades: dict) -> dict:
     for key, value in student_grades.items():
         avg = sum(value) / len(value)
     
-    
+        
     return {}
 
 
