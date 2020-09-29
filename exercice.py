@@ -69,6 +69,8 @@ def print_recipe(ingredients) -> None:
     name = input("Entrez le nom d'une recette.\n")
     if name in ingredients:
         print(ingredients)
+    else :
+        print("")
 
 
 def main() -> None:
