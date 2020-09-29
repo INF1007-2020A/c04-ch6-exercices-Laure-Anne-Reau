@@ -66,7 +66,7 @@ def get_recipes(dictionnaire):
 
 def print_recipe(ingredients) -> None:
     # TODO: Demander le nom d'une recette, puis l'afficher si elle existe
-    name = input
+    name = input("Entrez le nom d'une recette.\n")
     pass
 
 
