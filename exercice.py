@@ -92,7 +92,7 @@ def main() -> None:
     recipes = get_recipes({})
     recipes = get_recipes(recipes)
     print("On affiche une recette au choix...")
-    print_recipe()
+    print_recipe(recipes)
     print_recipe(recipes)
 
 
