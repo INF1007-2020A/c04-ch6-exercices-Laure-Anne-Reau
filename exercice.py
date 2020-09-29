@@ -41,7 +41,6 @@ def frequence(sentence: str) -> dict:
     # TODO: Afficher les lettres les plus fréquentes
     #       Retourner le tableau de lettres
     frequency = dict()
-    sentence = list
 
     for letter in sentence :
         frequency[letter] = sentence.count(letter)
