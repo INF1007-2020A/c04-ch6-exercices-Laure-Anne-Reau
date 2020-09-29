@@ -70,7 +70,7 @@ def print_recipe(ingredients) -> None:
     if name in ingredients:
         print(ingredients)
     else :
-        print("")
+        print("La recette n'existe pas")
 
 
 def main() -> None:
