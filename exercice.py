@@ -5,7 +5,7 @@
 def order(values: list = None) -> list:
     if values is None:
         # TODO: demander les valeurs ici
-        Liste = input("veuillez entrer les valeurs dans l'")
+        Liste = input("veuillez entrer les valeurs séparées par une virgule: ")
         
         pass
 
